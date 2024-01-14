@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="contact-container">
+
+        <h1 class="title">Sign Into Account</h1>
+        <form action="" class="was-validated" onsubmit="onLogin(event)">
+            <div class="form-container">
+                <div class="username">
+                    <img class="icon user-icon" src="icons/user.svg" alt="">
+                    <input type="username" class="user-input" placeholder="username">
+                </div>
+                <div class="password">
+                    <img  class="icon password-icon" src="icons/password lock.svg" alt="">
+                    <input type="password" class="pass-input" placeholder="password">
+                </div>
+        </form>
+
+        
+            <div class="keepme">
+                <input type="checkbox" checked="true">
+                 Keep Me Logged In
+            </div>
+            <button type="submit">Login</button>
+            <a href="create-account.html" class="link" id="login-button" onclick="onLogin()">Create account</a>
+            
+        </div>
+    </div>
+</body>
+</html>
